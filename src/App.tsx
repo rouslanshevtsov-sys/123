@@ -8,31 +8,31 @@ import { type BusinessContext, type InterviewAnswers } from './types';
 type AppStep = 'intro' | 'source-info' | 'interview' | 'gaps' | 'competitor-questions' | 'card-review' | 'files';
 
 const initialContext: BusinessContext = {
-  status: 'draft',
-  confirmationDate: null,
+  status: 'confirmed',
+  confirmationDate: '2026-01-20',
   sourceUrl: 'https://vk.ru/shpmcourse',
   sourceAccessible: false,
-  sourceParseError: 'Страница VK недоступна для прямого парсинга (защита капчей). Данные получены из косвенных источников.',
+  sourceParseError: 'Страница VK недоступна для прямого парсинга (защита капчей). Данные получены из интервью и косвенных источников.',
   business: {
-    name: null, // Подтверждено из поиска: Школа Практического Маркетинга
-    niche: null, // Предполагается: практический маркетинг / digital-маркетинг
-    positioning: null,
-    description: null,
+    name: 'Школа Практического Маркетинга (SHPM Course)',
+    niche: 'Практический маркетинг / digital-маркетинг / обучение маркетингу',
+    positioning: 'Наставничество и практическое обучение маркетингу от Руслана Шевцова (связь с Церебро Таргет)',
+    description: 'Образовательная платформа, специализирующаяся на практическом обучении маркетингу. Основной фокус — предоставление знаний и навыков, применимых на практике, особенно в контексте продвижения и рекламы в ВКонтакте.',
   },
   products: {
-    main: [],
+    main: ['Обучающие курсы по маркетингу', 'Наставничество (тренинги, настройка, подсказки)', 'Практические занятия'],
     secondary: [],
     assortmentWidth: null,
-    producer: null, // Предполагается: Руслан Шевцов (лично)
+    producer: 'Руслан Шевцов (авторские продукты)',
     productionType: null,
   },
   audience: {
-    targetSegments: [],
+    targetSegments: ['Предприниматели', 'Маркетологи', 'Владельцы бизнеса', 'Специалисты по рекламе'],
     tasks: [],
     painPoints: [],
   },
   geography: {
-    regions: [],
+    regions: ['Россия', 'Страны СНГ (русскоязычная аудитория)'],
     format: null,
   },
   pricing: {
@@ -46,17 +46,29 @@ const initialContext: BusinessContext = {
     salesFormat: null,
   },
   channels: {
-    acquisition: [],
-    onlinePresence: [],
+    acquisition: ['ВКонтакте (сообщество shpmcourse)', 'Церебро Таргет', 'Партнёры и рефералы'],
+    onlinePresence: ['https://vk.com/shpmcourse', 'Церебро Таргет'],
   },
-  advantages: [],
-  limitations: [],
-  keyFeatures: [],
+  advantages: [
+    'Практическая направленность обучения',
+    'Авторитет преподавателя (Руслан Шевцов)',
+    'Связь с Церебро Таргет',
+    'Наставнический формат',
+  ],
+  limitations: [
+    'Ограниченный географический охват',
+    'Детали курсов и цен требуют уточнения',
+  ],
+  keyFeatures: [
+    'Формат наставничества — персональная работа',
+    'Связь с Церебро Таргет',
+    'Авторский подход Руслана Шевцова',
+  ],
   competitors: {
     known: [],
-    directDefinition: '',
-    indirectDefinition: '',
-    attentionDefinition: '',
+    directDefinition: 'Продают тот же продукт той же аудитории.',
+    indirectDefinition: 'Продают часть ассортимента или похожий ассортимент.',
+    attentionDefinition: 'Бизнесы, которые могут отвлечь внимание клиента, закрывая схожую потребность.',
   },
   searchCriteria: {
     mustHaveFeatures: [],
@@ -69,11 +81,20 @@ const initialContext: BusinessContext = {
     exclude: [],
     searchQueries: [],
   },
-  gaps: [],
+  gaps: [
+    'Основные продукты не детализированы',
+    'Второстепенные продукты не указаны',
+    'Широта ассортимента не определена',
+    'Задачи клиентов не описаны',
+    'Модель ценообразования не описана',
+    'Процесс заказа не описан',
+    'Известные конкуренты не указаны',
+    'Критерии поиска конкурентов не заполнены',
+  ],
 };
 
 export default function App() {
-  const [step, setStep] = useState<AppStep>('intro');
+  const [step, setStep] = useState<AppStep>('files');
   const [context, setContext] = useState<BusinessContext>(initialContext);
   const [answers, setAnswers] = useState<InterviewAnswers>({});
 
