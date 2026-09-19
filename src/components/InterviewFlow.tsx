@@ -13,8 +13,8 @@ interface Props {
 const businessQuestions: Question[] = [
   {
     id: 'b1',
-    text: 'Как называется ваш бизнес? (или как его знают клиенты)',
-    placeholder: 'Например: Школа парикмахерского мастерства, SHPM Course...',
+    text: 'Как называется ваш бизнес? (Из поиска: «Школа Практического Маркетинга» — это верно?)',
+    placeholder: 'Например: Школа Практического Маркетинга, SHPM Course, или другое название...',
     type: 'text',
     contextKey: 'business.name',
     required: true,
@@ -23,7 +23,7 @@ const businessQuestions: Question[] = [
   {
     id: 'b2',
     text: 'Опишите ваш бизнес в 2-3 предложениях: что это, для кого, какую проблему решает',
-    placeholder: 'Например: Онлайн-школа обучения парикмахерскому делу для начинающих мастеров...',
+    placeholder: 'Например: Наставничество по маркетингу для специалистов и владельцев бизнеса. Помогаю настроить рекламу и привлечь клиентов...',
     type: 'textarea',
     contextKey: 'business.description',
     required: true,
@@ -31,8 +31,8 @@ const businessQuestions: Question[] = [
   },
   {
     id: 'b3',
-    text: 'К какой маркетинговой нише относится ваш бизнес? (если знаете)',
-    placeholder: 'Например: онлайн-образование, beauty-индустрия, профессиональное обучение...',
+    text: 'К какой маркетинговой нише относится ваш бизнес?',
+    placeholder: 'Например: digital-маркетинг, обучение маркетингу, наставничество для предпринимателей...',
     type: 'text',
     contextKey: 'business.niche',
     block: 'business',
@@ -40,7 +40,7 @@ const businessQuestions: Question[] = [
   {
     id: 'b4',
     text: 'Какие основные продукты/услуги вы продаёте? Перечислите через запятую',
-    placeholder: 'Например: Курс парикмахер с нуля, Курс колористика, Мастер-класс по стрижкам...',
+    placeholder: 'Например: Курс по таргету VK, Наставничество 1-на-1, Марафон по рекламе, Групповая программа...',
     type: 'tags',
     contextKey: 'products.main',
     required: true,
@@ -48,8 +48,8 @@ const businessQuestions: Question[] = [
   },
   {
     id: 'b5',
-    text: 'Есть ли второстепенные продукты/услуги? (доп. материалы, консультации, инструменты)',
-    placeholder: 'Например: Гайд по инструментам, Чат поддержки, Разовые консультации...',
+    text: 'Есть ли второстепенные продукты/услуги? (доп. материалы, шаблоны, чаты поддержки)',
+    placeholder: 'Например: Шаблоны креативов, Чат выпускников, Разовые консультации, Гайды...',
     type: 'tags',
     contextKey: 'products.secondary',
     block: 'business',
@@ -57,7 +57,7 @@ const businessQuestions: Question[] = [
   {
     id: 'b6',
     text: 'Кто производит контент/продукты? Вы сами, команда, приглашённые эксперты?',
-    placeholder: 'Например: Я сам записываю уроки + приглашаю топ-мастеров для мастер-классов',
+    placeholder: 'Например: Я сам веду обучение + привлекаю практикующих маркетологов для гостевых уроков',
     type: 'text',
     contextKey: 'products.producer',
     block: 'business',
@@ -65,7 +65,7 @@ const businessQuestions: Question[] = [
   {
     id: 'b7',
     text: 'Кто ваша целевая аудитория? Опишите 2-3 основных сегмента',
-    placeholder: 'Например: Начинающие парикмахеры, Действующие мастера для повышения квалификации, Люди, которые хотят сменить профессию',
+    placeholder: 'Например: Начинающие маркетологи, Таргетологи для повышения квалификации, Владельцы малого бизнеса...',
     type: 'tags',
     contextKey: 'audience.targetSegments',
     required: true,
@@ -74,14 +74,14 @@ const businessQuestions: Question[] = [
   {
     id: 'b8',
     text: 'Какие задачи/проблемы решает ваш клиент, покупая у вас?',
-    placeholder: 'Например: Получить профессию с нуля, Повысить доход, Научиться конкретным техникам',
+    placeholder: 'Например: Настроить рекламу и получить клиентов, Освоить новую профессию, Масштабировать бизнес...',
     type: 'tags',
     contextKey: 'audience.tasks',
     block: 'business',
   },
   {
     id: 'b9',
-    text: 'В какой географии работает ваш бизнес? (страны, города, или "весь мир онлайн")',
+    text: 'В какой географии работает ваш бизнес? (страны, города, или «весь мир онлайн»)',
     placeholder: 'Например: Россия, СНГ, весь мир (онлайн-формат)',
     type: 'tags',
     contextKey: 'geography.regions',
@@ -91,7 +91,7 @@ const businessQuestions: Question[] = [
   {
     id: 'b10',
     text: 'Как устроены цены? (диапазон, модель: подписка, разовая покупка, пакеты)',
-    placeholder: 'Например: Базовый курс 15000₽, Премиум с наставником 45000₽, подписка 2000₽/мес',
+    placeholder: 'Например: Базовый курс 15000₽, Наставничество 50000₽, подписка 3000₽/мес',
     type: 'textarea',
     contextKey: 'pricing.model',
     block: 'business',
@@ -115,7 +115,7 @@ const businessQuestions: Question[] = [
   {
     id: 'b13',
     text: 'Через какие каналы к вам приходят клиенты?',
-    placeholder: 'Например: VK таргет, рефералы от учеников, YouTube, сарафанное радио',
+    placeholder: 'Например: VK таргет, рефералы от учеников, YouTube, сарафанное радио, личные выступления',
     type: 'tags',
     contextKey: 'channels.acquisition',
     required: true,
@@ -124,7 +124,7 @@ const businessQuestions: Question[] = [
   {
     id: 'b14',
     text: 'Где ещё вы представлены в интернете? (сайты, соцсети, платформы)',
-    placeholder: 'Например: Сайт, Telegram-канал, YouTube, Stepik, GetCourse',
+    placeholder: 'Например: Личная страница VK, Telegram-канал, YouTube, GetCourse',
     type: 'tags',
     contextKey: 'channels.onlinePresence',
     block: 'business',
@@ -132,7 +132,7 @@ const businessQuestions: Question[] = [
   {
     id: 'b15',
     text: 'В чём главные преимущества и ограничения вашего бизнеса?',
-    placeholder: 'Преимущества: уникальный авторский подход, практика на моделях... Ограничения: только онлайн, нет диплома гос. образца...',
+    placeholder: 'Преимущества: практический опыт, кейсы, поддержка... Ограничения: только онлайн, ограниченный набор в наставничество...',
     type: 'textarea',
     contextKey: 'advantages',
     block: 'business',
@@ -143,7 +143,7 @@ const competitorQuestions: Question[] = [
   {
     id: 'c1',
     text: 'Кого вы уже считаете своими конкурентами? Перечислите известных',
-    placeholder: 'Например: Школа X, Блогер Y, Курс Z...',
+    placeholder: 'Например: Школа X, Блогер Y, Курс Z, Агентство W...',
     type: 'tags',
     contextKey: 'competitors.known',
     required: true,
@@ -152,7 +152,7 @@ const competitorQuestions: Question[] = [
   {
     id: 'c2',
     text: 'Какие особенности вашего бизнеса ОБЯЗАТЕЛЬНО должны быть у конкурентов, чтобы их учитывать?',
-    placeholder: 'Например: Онлайн-формат, наличие практических заданий, русскоязычный контент, цена от 10000₽',
+    placeholder: 'Например: Обучение маркетингу, онлайн-формат, русскоязычный контент, цена от 5000₽',
     type: 'tags',
     contextKey: 'searchCriteria.mustHaveFeatures',
     required: true,
@@ -161,7 +161,7 @@ const competitorQuestions: Question[] = [
   {
     id: 'c3',
     text: 'Где и по каким критериям нужно искать конкурентов? (платформы, ключевые слова)',
-    placeholder: 'Например: VK сообщества, GetCourse, YouTube каналы, Instagram блоги',
+    placeholder: 'Например: VK сообщества, GetCourse, YouTube каналы, Telegram, Instagram',
     type: 'tags',
     contextKey: 'searchCriteria.searchPlatforms',
     block: 'competitors',
@@ -201,7 +201,7 @@ const competitorQuestions: Question[] = [
   {
     id: 'c8',
     text: 'Кого обязательно включить в список? (конкретные бизнесы, если есть)',
-    placeholder: 'Например: Обязательно включить "Школа X" и "Курс Y"',
+    placeholder: 'Например: Обязательно включить «Церебро» и «Школу X»',
     type: 'tags',
     contextKey: 'searchCriteria.include',
     block: 'competitors',
@@ -209,7 +209,7 @@ const competitorQuestions: Question[] = [
   {
     id: 'c9',
     text: 'Кого исключить? (кто точно НЕ конкурент)',
-    placeholder: 'Например: Офлайн-курсы в другом городе, бесплатные YouTube-уроки без структуры',
+    placeholder: 'Например: Офлайн-агентства без обучения, бесплатные YouTube-уроки без структуры',
     type: 'tags',
     contextKey: 'searchCriteria.exclude',
     block: 'competitors',
@@ -217,7 +217,7 @@ const competitorQuestions: Question[] = [
   {
     id: 'c10',
     text: 'Какие поисковые запросы использовать для нахождения конкурентов?',
-    placeholder: 'Например: "курсы парикмахера онлайн", "обучение стрижкам", "школа колористики"',
+    placeholder: 'Например: "курсы маркетинга онлайн", "обучение таргету VK", "наставничество по рекламе"',
     type: 'tags',
     contextKey: 'searchCriteria.searchQueries',
     block: 'competitors',
@@ -234,16 +234,13 @@ export function InterviewFlow({ context, updateContext, answers, updateAnswers, 
   const progress = ((currentQ + 1) / questions.length) * 100;
 
   const handleNext = () => {
-    // Save current answer
     saveAnswer(question.contextKey, localValue);
     
     if (isLast) {
-      // Apply all answers to context
       applyAllAnswers();
       onComplete();
     } else {
       setCurrentQ(currentQ + 1);
-      // Load next answer if exists
       const nextQ = questions[currentQ + 1];
       setLocalValue(answers[nextQ.contextKey] || '');
     }
@@ -258,6 +255,15 @@ export function InterviewFlow({ context, updateContext, answers, updateAnswers, 
     }
   };
 
+  const handleSkip = () => {
+    if (currentQ < questions.length - 1) {
+      saveAnswer(question.contextKey, localValue);
+      setCurrentQ(currentQ + 1);
+      const nextQ = questions[currentQ + 1];
+      setLocalValue(answers[nextQ.contextKey] || '');
+    }
+  };
+
   const saveAnswer = (key: string, value: string) => {
     updateAnswers(key, value);
   };
@@ -265,7 +271,6 @@ export function InterviewFlow({ context, updateContext, answers, updateAnswers, 
   const applyAllAnswers = () => {
     const updates: Partial<BusinessContext> = {};
     
-    // Map answers to context
     const allAnswers = { ...answers, [question.contextKey]: localValue };
     
     if (block === 'business') {
@@ -407,6 +412,14 @@ export function InterviewFlow({ context, updateContext, answers, updateAnswers, 
               className="px-6 py-3 bg-slate-700 border border-slate-600 rounded-xl font-medium hover:bg-slate-600 transition-colors"
             >
               ← Назад
+            </button>
+          )}
+          {!question.required && !isLast && (
+            <button
+              onClick={handleSkip}
+              className="px-6 py-3 bg-slate-700/50 border border-slate-600/50 rounded-xl font-medium text-slate-400 hover:bg-slate-700 transition-colors"
+            >
+              Пропустить →
             </button>
           )}
           <button

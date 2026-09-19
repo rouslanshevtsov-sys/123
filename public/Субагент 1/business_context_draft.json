@@ -1,0 +1,101 @@
+{
+  "status": "draft",
+  "confirmationDate": null,
+  "generatedAt": "2026-01-20T00:00:00.000Z",
+  "source": {
+    "url": "https://vk.ru/shpmcourse",
+    "accessible": false,
+    "parseError": "Страница VK недоступна для прямого парсинга (защита капчей). Данные получены из косвенных источников."
+  },
+  "business": {
+    "name": null,
+    "niche": null,
+    "positioning": null,
+    "description": null
+  },
+  "products": {
+    "main": [],
+    "secondary": [],
+    "assortmentWidth": null,
+    "producer": null,
+    "productionType": null
+  },
+  "audience": {
+    "targetSegments": [],
+    "tasks": [],
+    "painPoints": []
+  },
+  "geography": {
+    "regions": [],
+    "format": null
+  },
+  "pricing": {
+    "model": null,
+    "range": null
+  },
+  "salesProcess": {
+    "orderProcess": null,
+    "paymentMethods": [],
+    "deliveryOrAccess": null,
+    "salesFormat": null
+  },
+  "channels": {
+    "acquisition": [],
+    "onlinePresence": []
+  },
+  "advantages": [],
+  "limitations": [],
+  "keyFeatures": [],
+  "competitors": {
+    "known": [],
+    "classification": {
+      "direct": "Продают тот же продукт той же аудитории. Ассортимент может быть шире, но основная специализация совпадает.",
+      "indirect": "Продают часть ассортимента или похожий ассортимент.",
+      "attention": "Бизнесы, которые могут отвлечь внимание клиента, закрывая схожую потребность."
+    }
+  },
+  "searchCriteria": {
+    "mustHaveFeatures": [],
+    "searchPlatforms": [],
+    "count": null,
+    "geography": null,
+    "vkAudienceLimit": null,
+    "publicationFreshness": null,
+    "include": [],
+    "exclude": [],
+    "searchQueries": []
+  },
+  "gaps": [
+    "Название бизнеса не указано",
+    "Маркетинговая ниша не определена",
+    "Описание бизнеса отсутствует",
+    "Основные продукты не перечислены",
+    "Не указано, кто производит/поставляет продукты",
+    "Целевые сегменты не определены",
+    "География работы не указана",
+    "Модель ценообразования не описана",
+    "Процесс заказа не описан",
+    "Каналы привлечения не указаны",
+    "Преимущества не перечислены",
+    "Известные конкуренты не указаны",
+    "Количество конкурентов для поиска не указано"
+  ],
+  "preliminaryData": {
+    "shpmDecoded": "Школа Практического Маркетинга",
+    "author": "Руслан Шевцов",
+    "relatedService": "Церебро Таргет — продвижение и реклама бизнеса",
+    "format": "наставничество, обучение маркетингу",
+    "platform": "ВКонтакте (сообщество shpmcourse)",
+    "dataSources": [
+      "Пост Руслана Шевцова: «Маркетинга — vk.com/shpmcourse. Там я буду тебя тренировать, настраивать, подсказывать»",
+      "Pressfeed: «руководитель проекта Школа Практического Маркетинга»",
+      "Связь с сообществом «Церебро Таргет | продвижение и реклама бизнеса»"
+    ]
+  },
+  "validation": {
+    "jsonSyntaxValid": true,
+    "syncedWithMarkdown": true,
+    "noSecretsExposed": true,
+    "noFabricatedData": true
+  }
+}

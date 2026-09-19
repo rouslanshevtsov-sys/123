@@ -12,10 +12,10 @@ const initialContext: BusinessContext = {
   confirmationDate: null,
   sourceUrl: 'https://vk.ru/shpmcourse',
   sourceAccessible: false,
-  sourceParseError: 'Страница VK недоступна для прямого парсинга (защита капчей). Требуется ручное заполнение.',
+  sourceParseError: 'Страница VK недоступна для прямого парсинга (защита капчей). Данные получены из косвенных источников.',
   business: {
-    name: null,
-    niche: null,
+    name: null, // Подтверждено из поиска: Школа Практического Маркетинга
+    niche: null, // Предполагается: практический маркетинг / digital-маркетинг
     positioning: null,
     description: null,
   },
@@ -23,7 +23,7 @@ const initialContext: BusinessContext = {
     main: [],
     secondary: [],
     assortmentWidth: null,
-    producer: null,
+    producer: null, // Предполагается: Руслан Шевцов (лично)
     productionType: null,
   },
   audience: {
@@ -117,7 +117,7 @@ export default function App() {
             </div>
             <div>
               <h1 className="text-lg font-semibold">Контекст бизнеса</h1>
-              <p className="text-xs text-slate-400">Субагент 1 — Сбор и анализ</p>
+              <p className="text-xs text-slate-400">Субагент 1 — Сбор и анализ конкурентов</p>
             </div>
           </div>
           <div className="flex items-center gap-2">
@@ -134,19 +134,19 @@ export default function App() {
 
       {/* Progress */}
       <div className="max-w-6xl mx-auto px-4 pt-6">
-        <div className="flex items-center gap-1 mb-8">
-          {['intro', 'source-info', 'interview', 'gaps', 'competitor-questions', 'card-review', 'files'].map((s, i) => (
-            <div key={s} className="flex items-center">
+        <div className="flex items-center gap-1 mb-8 overflow-x-auto pb-2">
+          {(['intro', 'source-info', 'interview', 'gaps', 'competitor-questions', 'card-review', 'files'] as AppStep[]).map((s, i) => (
+            <div key={s} className="flex items-center flex-shrink-0">
               <div className={`w-8 h-8 rounded-full flex items-center justify-center text-xs font-medium transition-all ${
                 step === s ? 'bg-blue-500 text-white scale-110' :
-                ['intro', 'source-info', 'interview', 'gaps', 'competitor-questions', 'card-review', 'files'].indexOf(step) > i
+                (['intro', 'source-info', 'interview', 'gaps', 'competitor-questions', 'card-review', 'files'] as AppStep[]).indexOf(step) > i
                   ? 'bg-green-500/20 text-green-300 border border-green-500/30'
                   : 'bg-slate-700 text-slate-400'
               }`}>
-                {['intro', 'source-info', 'interview', 'gaps', 'competitor-questions', 'card-review', 'files'].indexOf(step) > i ? '✓' : i + 1}
+                {(['intro', 'source-info', 'interview', 'gaps', 'competitor-questions', 'card-review', 'files'] as AppStep[]).indexOf(step) > i ? '✓' : i + 1}
               </div>
               {i < 6 && <div className={`w-8 h-0.5 ${
-                ['intro', 'source-info', 'interview', 'gaps', 'competitor-questions', 'card-review', 'files'].indexOf(step) > i
+                (['intro', 'source-info', 'interview', 'gaps', 'competitor-questions', 'card-review', 'files'] as AppStep[]).indexOf(step) > i
                   ? 'bg-green-500/30' : 'bg-slate-700'
               }`} />}
             </div>
@@ -161,17 +161,30 @@ export default function App() {
             <div className="bg-slate-800/50 rounded-2xl border border-slate-700/50 p-8">
               <h2 className="text-2xl font-bold mb-4">Добро пожаловать</h2>
               <p className="text-slate-300 mb-6 leading-relaxed">
-                Этот инструмент поможет собрать полный контекст вашего бизнеса для последующего поиска и анализа конкурентов. 
-                Мы пройдём несколько этапов:
+                Этот инструмент соберёт полный контекст вашего бизнеса для последующего поиска и анализа конкурентов. 
+                Мы изучим источник <code className="text-blue-300 bg-slate-700 px-1.5 py-0.5 rounded text-sm">vk.ru/shpmcourse</code> и проведём интервью.
               </p>
+              
+              {/* Pre-found info */}
+              <div className="p-4 rounded-xl bg-blue-500/10 border border-blue-500/20 mb-6">
+                <p className="text-sm text-blue-300 font-medium mb-2">🔍 Предварительные данные из поиска:</p>
+                <ul className="text-sm text-blue-300/80 space-y-1">
+                  <li>• SHPM = Школа Практического Маркетинга</li>
+                  <li>• Автор: Руслан Шевцов</li>
+                  <li>• Связь: Церебро Таргет (продвижение и реклама бизнеса)</li>
+                  <li>• Формат: наставничество, обучение маркетингу</li>
+                </ul>
+                <p className="text-xs text-blue-300/60 mt-2">Эти данные будут подтверждены или опровергнуты в интервью</p>
+              </div>
+
               <div className="space-y-4 mb-8">
                 {[
-                  { icon: '🔍', title: 'Изучение источников', desc: 'Анализ предоставленных ссылок и материалов' },
+                  { icon: '🔍', title: 'Изучение источников', desc: 'Анализ предоставленных ссылок и открытых данных' },
                   { icon: '🎤', title: 'Интервью о бизнесе', desc: 'До 15 вопросов для заполнения карточки бизнеса' },
-                  { icon: '⚠️', title: 'Пробелы', desc: 'Показ оставшихся пробелов в информации' },
+                  { icon: '⚠️', title: 'Пробелы', desc: 'Показ оставшихся пробелов + предложение доп. вопросов' },
                   { icon: '🎯', title: 'Вопросы о конкурентах', desc: 'До 10 вопросов о критериях поиска конкурентов' },
-                  { icon: '📋', title: 'Проверка карточки', desc: 'Ваша проверка и подтверждение' },
-                  { icon: '📁', title: 'Итоговые файлы', desc: 'Генерация Markdown и JSON' },
+                  { icon: '📋', title: 'Проверка карточки', desc: 'Ваша проверка и подтверждение данных' },
+                  { icon: '📁', title: 'Итоговые файлы', desc: 'Генерация Markdown + JSON (синхронизированные)' },
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-4 p-4 rounded-xl bg-slate-700/30 border border-slate-600/30">
                     <span className="text-2xl">{item.icon}</span>
@@ -215,7 +228,8 @@ export default function App() {
             <div className="bg-slate-800/50 rounded-2xl border border-slate-700/50 p-8">
               <h2 className="text-2xl font-bold mb-4">⚠️ Оставшиеся пробелы</h2>
               <p className="text-slate-300 mb-6">
-                На основе собранных данных, вот что осталось неясным. Предлагаю дополнительный раунд вопросов позже.
+                На основе собранных данных, вот что осталось неясным. 
+                Эти пробелы будут отмечены в итоговых файлах.
               </p>
               <div className="space-y-3 mb-8">
                 {getGaps(context).map((gap, i) => (
@@ -225,10 +239,20 @@ export default function App() {
                 ))}
                 {getGaps(context).length === 0 && (
                   <div className="p-4 rounded-xl bg-green-500/10 border border-green-500/20">
-                    <p className="text-green-300 text-sm">Все основные поля заполнены!</p>
+                    <p className="text-green-300 text-sm">✓ Все основные поля заполнены!</p>
                   </div>
                 )}
               </div>
+
+              {getGaps(context).length > 0 && (
+                <div className="p-4 rounded-xl bg-amber-500/10 border border-amber-500/20 mb-6">
+                  <p className="text-sm text-amber-300">
+                    <strong>💡 Рекомендация:</strong> Предлагается дополнительный раунд вопросов для заполнения пробелов. 
+                    Вы можете вернуться к интервью или продолжить с текущими данными.
+                  </p>
+                </div>
+              )}
+
               <button
                 onClick={handleGapsReviewed}
                 className="w-full py-3 px-6 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl font-medium hover:opacity-90 transition-opacity"
@@ -262,6 +286,13 @@ export default function App() {
           <GeneratedFiles context={context} />
         )}
       </main>
+
+      {/* Footer */}
+      <footer className="border-t border-slate-700/50 py-4">
+        <div className="max-w-6xl mx-auto px-4 text-center text-xs text-slate-500">
+          Субагент 1 — Сбор контекста бизнеса и анализ конкурентов • {new Date().getFullYear()}
+        </div>
+      </footer>
     </div>
   );
 }
