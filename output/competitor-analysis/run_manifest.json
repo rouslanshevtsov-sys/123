@@ -1,0 +1,44 @@
+{
+  "task": "competitor_search_vk",
+  "agent": "subagent-2-competitors",
+  "startedAt": "2026-09-28T00:00:00Z",
+  "finishedAt": "2026-09-28T00:00:00Z",
+  "status": "halted_missing_prerequisites",
+  "businessContext": {
+    "path": "/workspace/public/Субагент 1/business_context.json",
+    "exists": true,
+    "status": "confirmed",
+    "sha256": "59b76b66f0fe09ef8b152d4237f72f2907cd0667162c38a2b742b63be09d54fa"
+  },
+  "timeWindow": {
+    "planned": "last 31*24 hours ending at run start",
+    "used": null
+  },
+  "vkApiMethodsIntended": ["groups.search (count=1000)", "groups.getById (batched)", "wall.get (count=100, paginated by offset)"],
+  "searchQueriesPlanned": [
+    "курсы маркетинга", "обучение маркетингу", "маркетинг обучение", "школа маркетинга",
+    "таргетированная реклама обучение", "smm обучение", "продвижение вконтакте",
+    "наставничество маркетинг", "digital маркетинг курсы", "интернет-маркетинг обучение"
+  ],
+  "poolExpansionStopRules": [
+    "two consecutive queries added <5% new unique communities",
+    "pool reached 3 candidates per target slot"
+  ],
+  "pagination": {"executed": false, "notes": "Не выполнялась — нет токена VK API"},
+  "counts": {
+    "candidatesFound": 0,
+    "candidatesChecked": 0,
+    "qualifiedCompetitors": 0,
+    "targetCount": null,
+    "targetCountNote": "searchCriteria.count = null в карточке, целевое количество не задано"
+  },
+  "errors": [
+    {"code": "MISSING_VK_TOKEN", "detail": "Файл vk_token.txt отсутствует в рабочей папке и в окружении; VK API отвечает error_code=15 'Access denied: token required' даже для групповых запросов без токена."},
+    {"code": "EMPTY_SEARCH_CRITERIA", "detail": "searchCriteria заполнен частично: count=null, searchQueries=[], include=[], exclude=[], geography=null, vkAudienceLimit=null, publicationFreshness=null. Известные конкуренты (competitors.known) не указаны."}
+  ],
+  "limitations": [
+    "Без токена недоступны groups.search, groups.getById, wall.get — невозможно собрать пул кандидатов, подписчиков, публикации и рассчитать ER.",
+    "Карточка требует уточнения: критерии поиска конкурентов не заполнены (зафиксировано в поле gaps карточки)."
+  ],
+  "secretsIncluded": false
+}
