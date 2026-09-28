@@ -1,0 +1,3556 @@
+{
+ "generated_at_msk": "2026-09-28",
+ "source_note": "comments.json в исходной выгрузке пуст; комментарии собраны тем же VK API (wall.getComments) по post_id из vk_posts_dataset/posts_analyzed.json. Проверка live-счётчиками wall.getById.",
+ "total_posts_with_comments": 118,
+ "total_comments": 228,
+ "spam_template": {
+  "text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+  "occurrences": 96,
+  "note": "Один и тот же рекламный комментарий повторяется на десятках постов Гениев Маркетинга — исключён из сигнальных категорий."
+ },
+ "category_definitions": {
+  "question": "Вопрос аудитории (есть знак «?»)",
+  "product_interest_question": "Вопрос с интересом к продукту/услуге или просьбой подсказать",
+  "objection_or_dispute": "Возражение, спор, «но…»",
+  "safety_concern": "Тревога за безопасность людей",
+  "personal_story_resonance": "Личная история «у меня так же» — узнавание",
+  "positive_reaction": "Положительная реакция: спасибо, классно, смешно, согласие",
+  "negative_reaction": "Отрицательная реакция: бред, пирамида, «листаем дальше»",
+  "comment_on_topic_no_clear_signal": "Комментарий по теме без выраженного сигнала",
+  "empty_or_emoji": "Пустой комментарий или только эмодзи",
+  "spam_ad": "Рекламный спам-шаблон (исключён из сигналов)"
+ },
+ "category_totals_excluding_spam": {
+  "negative_reaction": 4,
+  "comment_on_topic_no_clear_signal": 72,
+  "personal_story_resonance": 2,
+  "positive_reaction": 28,
+  "product_interest_question": 3,
+  "question": 19,
+  "objection_or_dispute": 3,
+  "empty_or_emoji": 9,
+  "safety_concern": 4
+ },
+ "category_totals_by_bucket": {
+  "top25": {
+   "comment_on_topic_no_clear_signal": 63,
+   "personal_story_resonance": 2,
+   "positive_reaction": 28,
+   "product_interest_question": 3,
+   "question": 16,
+   "empty_or_emoji": 8,
+   "negative_reaction": 2,
+   "safety_concern": 4,
+   "objection_or_dispute": 2
+  },
+  "middle": {
+   "negative_reaction": 2,
+   "comment_on_topic_no_clear_signal": 9,
+   "question": 3,
+   "objection_or_dispute": 1,
+   "empty_or_emoji": 1
+  },
+  "bottom25": {}
+ },
+ "category_totals_by_group": {
+  "Стартап | Идеи для бизнеса, маркетинг": {
+   "negative_reaction": 1,
+   "comment_on_topic_no_clear_signal": 1
+  },
+  "Маркетинг Реклама Бизнес Саморазвитие": {
+   "comment_on_topic_no_clear_signal": 8,
+   "negative_reaction": 1,
+   "personal_story_resonance": 1
+  },
+  "Бизнес Маркетинг": {
+   "comment_on_topic_no_clear_signal": 2,
+   "positive_reaction": 1,
+   "product_interest_question": 1,
+   "question": 1
+  },
+  "Гении Маркетинга": {
+   "comment_on_topic_no_clear_signal": 1
+  },
+  "Маркетинг | Реклама": {
+   "question": 18,
+   "comment_on_topic_no_clear_signal": 60,
+   "positive_reaction": 27,
+   "objection_or_dispute": 3,
+   "empty_or_emoji": 9,
+   "negative_reaction": 2,
+   "safety_concern": 4,
+   "personal_story_resonance": 1,
+   "product_interest_question": 2
+  }
+ },
+ "records": [
+  {
+   "post_id": "-47706515_248237",
+   "post_url": "https://vk.com/wall-47706515_248237",
+   "group_name": "Стартап | Идеи для бизнеса, маркетинг",
+   "bucket": "middle",
+   "date_msk": "2026-09-24 14:45",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.002133,
+   "benchmark_er_snapshot": 0.002986,
+   "comment_text": "Обычная пирамида....",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "negative_reaction"
+   ]
+  },
+  {
+   "post_id": "-47706515_248195",
+   "post_url": "https://vk.com/wall-47706515_248195",
+   "group_name": "Стартап | Идеи для бизнеса, маркетинг",
+   "bucket": "middle",
+   "date_msk": "2026-09-22 02:45",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.001799,
+   "benchmark_er_snapshot": 0.002986,
+   "comment_text": "11. Этот пост",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-33608666_183456",
+   "post_url": "https://vk.com/wall-33608666_183456",
+   "group_name": "Маркетинг Реклама Бизнес Саморазвитие",
+   "bucket": "top25",
+   "date_msk": "2026-09-28 12:30",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.022636,
+   "benchmark_er_snapshot": 0.006971,
+   "comment_text": "... а оказывается, что это служба поддержки Яндекса из Брянской области.",
+   "comment_likes": 2,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-33608666_183450",
+   "post_url": "https://vk.com/wall-33608666_183450",
+   "group_name": "Маркетинг Реклама Бизнес Саморазвитие",
+   "bucket": "top25",
+   "date_msk": "2026-09-27 12:30",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.021739,
+   "benchmark_er_snapshot": 0.006971,
+   "comment_text": "Или в небе. Просто кружат его в облаках и не дают сойти с трапа",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-33608666_183448",
+   "post_url": "https://vk.com/wall-33608666_183448",
+   "group_name": "Маркетинг Реклама Бизнес Саморазвитие",
+   "bucket": "middle",
+   "date_msk": "2026-09-26 20:30",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.003127,
+   "benchmark_er_snapshot": 0.006971,
+   "comment_text": "С пользой будет попросту не читать этот бред",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "negative_reaction"
+   ]
+  },
+  {
+   "post_id": "-33608666_183444",
+   "post_url": "https://vk.com/wall-33608666_183444",
+   "group_name": "Маркетинг Реклама Бизнес Саморазвитие",
+   "bucket": "top25",
+   "date_msk": "2026-09-26 12:30",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.020628,
+   "benchmark_er_snapshot": 0.006971,
+   "comment_text": "Вам дадут самый удалённый кабинет в офисе 😁",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-33608666_183429",
+   "post_url": "https://vk.com/wall-33608666_183429",
+   "group_name": "Маркетинг Реклама Бизнес Саморазвитие",
+   "bucket": "top25",
+   "date_msk": "2026-09-24 12:30",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.033195,
+   "benchmark_er_snapshot": 0.006971,
+   "comment_text": "Есть... Увидишь табличку с надписью \"фикс прайс\" - беги... Говорю тебе: беги... Это место... Ад по сравнению с этим местом просто курилка с вытяжкой.\nХотя... (Поглаживая стопку разноцветных и разномастных блокнотов) Можешь и зайти... >8->",
+   "comment_likes": 1,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-33608666_183429",
+   "post_url": "https://vk.com/wall-33608666_183429",
+   "group_name": "Маркетинг Реклама Бизнес Саморазвитие",
+   "bucket": "top25",
+   "date_msk": "2026-09-24 12:30",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.033195,
+   "benchmark_er_snapshot": 0.006971,
+   "comment_text": "Хз",
+   "comment_likes": 2,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-33608666_183429",
+   "post_url": "https://vk.com/wall-33608666_183429",
+   "group_name": "Маркетинг Реклама Бизнес Саморазвитие",
+   "bucket": "top25",
+   "date_msk": "2026-09-24 12:30",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.033195,
+   "benchmark_er_snapshot": 0.006971,
+   "comment_text": "Даа",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-33608666_183429",
+   "post_url": "https://vk.com/wall-33608666_183429",
+   "group_name": "Маркетинг Реклама Бизнес Саморазвитие",
+   "bucket": "top25",
+   "date_msk": "2026-09-24 12:30",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.033195,
+   "benchmark_er_snapshot": 0.006971,
+   "comment_text": "Мне в конце августа хочется купить дневник или тетрадь",
+   "comment_likes": 3,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-33608666_183429",
+   "post_url": "https://vk.com/wall-33608666_183429",
+   "group_name": "Маркетинг Реклама Бизнес Саморазвитие",
+   "bucket": "top25",
+   "date_msk": "2026-09-24 12:30",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.033195,
+   "benchmark_er_snapshot": 0.006971,
+   "comment_text": "Меркурий в скорпионе",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-33608666_183429",
+   "post_url": "https://vk.com/wall-33608666_183429",
+   "group_name": "Маркетинг Реклама Бизнес Саморазвитие",
+   "bucket": "top25",
+   "date_msk": "2026-09-24 12:30",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.033195,
+   "benchmark_er_snapshot": 0.006971,
+   "comment_text": "Такая же история. Куча подаренных брендированных красивых блокнотов. Нет чтобы раздать кому-нибудь. Храню дома. 🙄😁",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "personal_story_resonance"
+   ]
+  },
+  {
+   "post_id": "-42328702_166757",
+   "post_url": "https://vk.com/wall-42328702_166757",
+   "group_name": "Бизнес Маркетинг",
+   "bucket": "top25",
+   "date_msk": "2026-09-27 18:00",
+   "main_type": "Текстовый пост",
+   "post_er_snapshot": 0.004739,
+   "benchmark_er_snapshot": 0.001596,
+   "comment_text": "Что же это за схема интересно)",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-42328702_166744",
+   "post_url": "https://vk.com/wall-42328702_166744",
+   "group_name": "Бизнес Маркетинг",
+   "bucket": "top25",
+   "date_msk": "2026-09-25 15:10",
+   "main_type": "Текстовый пост",
+   "post_er_snapshot": 0.009804,
+   "benchmark_er_snapshot": 0.001596,
+   "comment_text": "Помимо знаний про инвестиций, нам надо знать экономику и следить за событиями в стране и мире, а как работать вас бесплатно обучит любая инвестиционная площадка. У меня знакомая до сво на одной из бирж инвестировала, людей подбивала, кредитов набрала  чтобы вложить,а в итоге прогорела из-за Украины, а кредиты платить надо. И не дадите все яйца в ногу корзину, изучайте тему, раз решили, что жто легкий способ заработка. А так есть и другие проекты не биржи, для инвестиций.",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction",
+    "product_interest_question"
+   ]
+  },
+  {
+   "post_id": "-42328702_166724",
+   "post_url": "https://vk.com/wall-42328702_166724",
+   "group_name": "Бизнес Маркетинг",
+   "bucket": "top25",
+   "date_msk": "2026-09-23 06:16",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.002959,
+   "benchmark_er_snapshot": 0.001596,
+   "comment_text": "Полезно отделять цену идеи от её практической ценности: если покупка не снижает издержки, не приносит доход и не решает конкретную задачу, это, скорее всего, не актив, а эмоциональная ставка. 💡",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-42328702_166714",
+   "post_url": "https://vk.com/wall-42328702_166714",
+   "group_name": "Бизнес Маркетинг",
+   "bucket": "middle",
+   "date_msk": "2026-09-22 00:53",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.002899,
+   "benchmark_er_snapshot": 0.001596,
+   "comment_text": "Когда начинать плакать?",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "question"
+   ]
+  },
+  {
+   "post_id": "-59010800_244780",
+   "post_url": "https://vk.com/wall-59010800_244780",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-28 17:42",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.015873,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244778",
+   "post_url": "https://vk.com/wall-59010800_244778",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-28 15:57",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.008065,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244776",
+   "post_url": "https://vk.com/wall-59010800_244776",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-28 13:40",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005464,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244774",
+   "post_url": "https://vk.com/wall-59010800_244774",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-28 11:10",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.006211,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244771",
+   "post_url": "https://vk.com/wall-59010800_244771",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-28 09:18",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.006329,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244769",
+   "post_url": "https://vk.com/wall-59010800_244769",
+   "group_name": "Гении Маркетинга",
+   "bucket": "bottom25",
+   "date_msk": "2026-09-28 06:48",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.003984,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244767",
+   "post_url": "https://vk.com/wall-59010800_244767",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-28 04:19",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.010753,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244764",
+   "post_url": "https://vk.com/wall-59010800_244764",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-28 01:49",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005376,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244762",
+   "post_url": "https://vk.com/wall-59010800_244762",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-27 23:36",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.00495,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244760",
+   "post_url": "https://vk.com/wall-59010800_244760",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-27 21:47",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005405,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244757",
+   "post_url": "https://vk.com/wall-59010800_244757",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-27 20:45",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005155,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244754",
+   "post_url": "https://vk.com/wall-59010800_244754",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-27 19:22",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005208,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244752",
+   "post_url": "https://vk.com/wall-59010800_244752",
+   "group_name": "Гении Маркетинга",
+   "bucket": "bottom25",
+   "date_msk": "2026-09-27 17:39",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.004405,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244750",
+   "post_url": "https://vk.com/wall-59010800_244750",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-27 15:45",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005128,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244748",
+   "post_url": "https://vk.com/wall-59010800_244748",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-27 14:12",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005525,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244746",
+   "post_url": "https://vk.com/wall-59010800_244746",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-27 12:49",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.00495,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244743",
+   "post_url": "https://vk.com/wall-59010800_244743",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-27 11:08",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005102,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244741",
+   "post_url": "https://vk.com/wall-59010800_244741",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-27 09:37",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005464,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244739",
+   "post_url": "https://vk.com/wall-59010800_244739",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-27 07:04",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005848,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244737",
+   "post_url": "https://vk.com/wall-59010800_244737",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-27 04:17",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.009756,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244734",
+   "post_url": "https://vk.com/wall-59010800_244734",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-27 01:46",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.004808,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244732",
+   "post_url": "https://vk.com/wall-59010800_244732",
+   "group_name": "Гении Маркетинга",
+   "bucket": "bottom25",
+   "date_msk": "2026-09-26 23:23",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.004808,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244730",
+   "post_url": "https://vk.com/wall-59010800_244730",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-26 21:20",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.010526,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244728",
+   "post_url": "https://vk.com/wall-59010800_244728",
+   "group_name": "Гении Маркетинга",
+   "bucket": "bottom25",
+   "date_msk": "2026-09-26 20:36",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.004484,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244726",
+   "post_url": "https://vk.com/wall-59010800_244726",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-26 19:25",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.005814,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244724",
+   "post_url": "https://vk.com/wall-59010800_244724",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-26 18:26",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005263,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244722",
+   "post_url": "https://vk.com/wall-59010800_244722",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-26 16:59",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.009174,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244720",
+   "post_url": "https://vk.com/wall-59010800_244720",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-26 15:25",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005405,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244718",
+   "post_url": "https://vk.com/wall-59010800_244718",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-26 13:52",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005051,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244716",
+   "post_url": "https://vk.com/wall-59010800_244716",
+   "group_name": "Гении Маркетинга",
+   "bucket": "bottom25",
+   "date_msk": "2026-09-26 12:23",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.004425,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244712",
+   "post_url": "https://vk.com/wall-59010800_244712",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-26 11:02",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.006536,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244709",
+   "post_url": "https://vk.com/wall-59010800_244709",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-26 09:25",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.006993,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244706",
+   "post_url": "https://vk.com/wall-59010800_244706",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-26 06:53",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.006757,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244702",
+   "post_url": "https://vk.com/wall-59010800_244702",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-26 04:29",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.00625,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244700",
+   "post_url": "https://vk.com/wall-59010800_244700",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-26 01:57",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005587,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244698",
+   "post_url": "https://vk.com/wall-59010800_244698",
+   "group_name": "Гении Маркетинга",
+   "bucket": "bottom25",
+   "date_msk": "2026-09-25 23:14",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.004673,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244696",
+   "post_url": "https://vk.com/wall-59010800_244696",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-25 21:25",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.006211,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244694",
+   "post_url": "https://vk.com/wall-59010800_244694",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-25 20:25",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.00578,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244692",
+   "post_url": "https://vk.com/wall-59010800_244692",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-25 19:26",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.006173,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244690",
+   "post_url": "https://vk.com/wall-59010800_244690",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-25 18:21",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005525,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244688",
+   "post_url": "https://vk.com/wall-59010800_244688",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-25 16:54",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.005348,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244686",
+   "post_url": "https://vk.com/wall-59010800_244686",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-25 15:32",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.010695,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244683",
+   "post_url": "https://vk.com/wall-59010800_244683",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-25 13:55",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.007042,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244681",
+   "post_url": "https://vk.com/wall-59010800_244681",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-25 12:43",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244678",
+   "post_url": "https://vk.com/wall-59010800_244678",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-25 10:53",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.006289,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244675",
+   "post_url": "https://vk.com/wall-59010800_244675",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-25 09:24",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005988,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244673",
+   "post_url": "https://vk.com/wall-59010800_244673",
+   "group_name": "Гении Маркетинга",
+   "bucket": "bottom25",
+   "date_msk": "2026-09-25 06:52",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.004425,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244670",
+   "post_url": "https://vk.com/wall-59010800_244670",
+   "group_name": "Гении Маркетинга",
+   "bucket": "bottom25",
+   "date_msk": "2026-09-25 04:24",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.003861,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244668",
+   "post_url": "https://vk.com/wall-59010800_244668",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-25 01:54",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005682,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244666",
+   "post_url": "https://vk.com/wall-59010800_244666",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-24 23:26",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.006061,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244664",
+   "post_url": "https://vk.com/wall-59010800_244664",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-24 21:36",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.011719,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244662",
+   "post_url": "https://vk.com/wall-59010800_244662",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-24 20:28",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.006173,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244659",
+   "post_url": "https://vk.com/wall-59010800_244659",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-24 19:18",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.006329,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244656",
+   "post_url": "https://vk.com/wall-59010800_244656",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-24 18:25",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.006944,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244654",
+   "post_url": "https://vk.com/wall-59010800_244654",
+   "group_name": "Гении Маркетинга",
+   "bucket": "bottom25",
+   "date_msk": "2026-09-24 16:57",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.001595,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244651",
+   "post_url": "https://vk.com/wall-59010800_244651",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-24 15:25",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.007407,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244649",
+   "post_url": "https://vk.com/wall-59010800_244649",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-24 13:58",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.011111,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244647",
+   "post_url": "https://vk.com/wall-59010800_244647",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-24 12:33",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.005682,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244645",
+   "post_url": "https://vk.com/wall-59010800_244645",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-24 10:51",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.006329,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244643",
+   "post_url": "https://vk.com/wall-59010800_244643",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-24 09:24",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.004926,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244641",
+   "post_url": "https://vk.com/wall-59010800_244641",
+   "group_name": "Гении Маркетинга",
+   "bucket": "bottom25",
+   "date_msk": "2026-09-24 06:54",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.004525,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244639",
+   "post_url": "https://vk.com/wall-59010800_244639",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-24 04:25",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.007117,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244636",
+   "post_url": "https://vk.com/wall-59010800_244636",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-24 01:52",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.011765,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244634",
+   "post_url": "https://vk.com/wall-59010800_244634",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-23 23:24",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.013825,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244632",
+   "post_url": "https://vk.com/wall-59010800_244632",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-23 21:28",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005263,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244629",
+   "post_url": "https://vk.com/wall-59010800_244629",
+   "group_name": "Гении Маркетинга",
+   "bucket": "bottom25",
+   "date_msk": "2026-09-23 20:33",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.001767,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244627",
+   "post_url": "https://vk.com/wall-59010800_244627",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-23 19:36",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.005952,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244625",
+   "post_url": "https://vk.com/wall-59010800_244625",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-23 18:18",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.006452,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244623",
+   "post_url": "https://vk.com/wall-59010800_244623",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-23 16:48",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005747,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244620",
+   "post_url": "https://vk.com/wall-59010800_244620",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-23 15:15",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005988,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244618",
+   "post_url": "https://vk.com/wall-59010800_244618",
+   "group_name": "Гении Маркетинга",
+   "bucket": "bottom25",
+   "date_msk": "2026-09-23 13:47",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.004484,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244616",
+   "post_url": "https://vk.com/wall-59010800_244616",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-23 12:19",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005435,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244613",
+   "post_url": "https://vk.com/wall-59010800_244613",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-23 10:50",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.007874,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244611",
+   "post_url": "https://vk.com/wall-59010800_244611",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-23 09:19",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.01087,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244609",
+   "post_url": "https://vk.com/wall-59010800_244609",
+   "group_name": "Гении Маркетинга",
+   "bucket": "bottom25",
+   "date_msk": "2026-09-23 06:50",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.003155,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244607",
+   "post_url": "https://vk.com/wall-59010800_244607",
+   "group_name": "Гении Маркетинга",
+   "bucket": "bottom25",
+   "date_msk": "2026-09-23 04:20",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.004329,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244604",
+   "post_url": "https://vk.com/wall-59010800_244604",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-23 01:48",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005405,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244602",
+   "post_url": "https://vk.com/wall-59010800_244602",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-22 23:18",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.005618,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244599",
+   "post_url": "https://vk.com/wall-59010800_244599",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-22 21:25",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.005,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244597",
+   "post_url": "https://vk.com/wall-59010800_244597",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-22 20:29",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005348,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244595",
+   "post_url": "https://vk.com/wall-59010800_244595",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:25",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.009346,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244593",
+   "post_url": "https://vk.com/wall-59010800_244593",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 18:27",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.006803,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244591",
+   "post_url": "https://vk.com/wall-59010800_244591",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-22 16:52",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.00641,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244589",
+   "post_url": "https://vk.com/wall-59010800_244589",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-22 15:12",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.006289,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244586",
+   "post_url": "https://vk.com/wall-59010800_244586",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-22 13:42",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005102,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244584",
+   "post_url": "https://vk.com/wall-59010800_244584",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 12:16",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.012422,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244582",
+   "post_url": "https://vk.com/wall-59010800_244582",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-22 10:43",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244580",
+   "post_url": "https://vk.com/wall-59010800_244580",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-22 09:16",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005814,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244577",
+   "post_url": "https://vk.com/wall-59010800_244577",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 06:47",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.008197,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244577",
+   "post_url": "https://vk.com/wall-59010800_244577",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 06:47",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.008197,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "По ощущениям мне 40, блин, при 26 в паспорте.",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-59010800_244575",
+   "post_url": "https://vk.com/wall-59010800_244575",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 04:17",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.006944,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244572",
+   "post_url": "https://vk.com/wall-59010800_244572",
+   "group_name": "Гении Маркетинга",
+   "bucket": "bottom25",
+   "date_msk": "2026-09-22 01:46",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.004367,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244570",
+   "post_url": "https://vk.com/wall-59010800_244570",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-21 23:24",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005025,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244568",
+   "post_url": "https://vk.com/wall-59010800_244568",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-21 21:19",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.00495,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244566",
+   "post_url": "https://vk.com/wall-59010800_244566",
+   "group_name": "Гении Маркетинга",
+   "bucket": "top25",
+   "date_msk": "2026-09-21 20:23",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.010417,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244564",
+   "post_url": "https://vk.com/wall-59010800_244564",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-21 19:23",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.006211,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-59010800_244562",
+   "post_url": "https://vk.com/wall-59010800_244562",
+   "group_name": "Гении Маркетинга",
+   "bucket": "middle",
+   "date_msk": "2026-09-21 18:21",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005236,
+   "benchmark_er_snapshot": 0.005683,
+   "comment_text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+   "comment_likes": 0,
+   "is_spam_template": true,
+   "categories": []
+  },
+  {
+   "post_id": "-46847296_133522",
+   "post_url": "https://vk.com/wall-46847296_133522",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "middle",
+   "date_msk": "2026-09-27 15:00",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.009592,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "А почему всяким козлам сразу по две девушки достаётся, а?",
+   "comment_likes": 1,
+   "is_spam_template": false,
+   "categories": [
+    "question"
+   ]
+  },
+  {
+   "post_id": "-46847296_133522",
+   "post_url": "https://vk.com/wall-46847296_133522",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "middle",
+   "date_msk": "2026-09-27 15:00",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.009592,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Женщина-Стрелец и мужчина-Козерог так себе идея 🌚",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133516",
+   "post_url": "https://vk.com/wall-46847296_133516",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-27 11:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.066308,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "За сочувствие даже не 5 звезд поставил , что за человек 😁",
+   "comment_likes": 25,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133516",
+   "post_url": "https://vk.com/wall-46847296_133516",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-27 11:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.066308,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Надо бодриться!",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133516",
+   "post_url": "https://vk.com/wall-46847296_133516",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-27 11:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.066308,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "энтузиазм за 2к в смену? даже не смешно",
+   "comment_likes": 26,
+   "is_spam_template": false,
+   "categories": [
+    "question",
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133516",
+   "post_url": "https://vk.com/wall-46847296_133516",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-27 11:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.066308,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "«Как будто»?",
+   "comment_likes": 6,
+   "is_spam_template": false,
+   "categories": [
+    "question"
+   ]
+  },
+  {
+   "post_id": "-46847296_133516",
+   "post_url": "https://vk.com/wall-46847296_133516",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-27 11:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.066308,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "прекрасная мотивация.После такого отзыва стал счастлив и энергичен",
+   "comment_likes": 14,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133516",
+   "post_url": "https://vk.com/wall-46847296_133516",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-27 11:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.066308,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Пусть потаскают повлетают на штрафы послушают всяких неадекватных клиентов курьеров и начальство, а зп около 20🙂",
+   "comment_likes": 6,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133483",
+   "post_url": "https://vk.com/wall-46847296_133483",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "middle",
+   "date_msk": "2026-09-26 15:00",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005896,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Делал так 4 года назад... Миллионы не набрало, но по городу разлетелось)",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "objection_or_dispute"
+   ]
+  },
+  {
+   "post_id": "-46847296_133483",
+   "post_url": "https://vk.com/wall-46847296_133483",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "middle",
+   "date_msk": "2026-09-26 15:00",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005896,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Напугали😱",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133483",
+   "post_url": "https://vk.com/wall-46847296_133483",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "middle",
+   "date_msk": "2026-09-26 15:00",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005896,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "😱 думала, он умер",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133483",
+   "post_url": "https://vk.com/wall-46847296_133483",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "middle",
+   "date_msk": "2026-09-26 15:00",
+   "main_type": "Карусель",
+   "post_er_snapshot": 0.005896,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Не хотела бы я такого поздравления",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133468",
+   "post_url": "https://vk.com/wall-46847296_133468",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "middle",
+   "date_msk": "2026-09-26 11:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.012598,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "empty_or_emoji"
+   ]
+  },
+  {
+   "post_id": "-46847296_133468",
+   "post_url": "https://vk.com/wall-46847296_133468",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "middle",
+   "date_msk": "2026-09-26 11:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.012598,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "не проплатили - чего она будет бесплатно своей приемник открывать?",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "question"
+   ]
+  },
+  {
+   "post_id": "-46847296_133425",
+   "post_url": "https://vk.com/wall-46847296_133425",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "middle",
+   "date_msk": "2026-09-25 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.01279,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Положил извинения на пол, за девушку! Забирайте, пожалуйста",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133412",
+   "post_url": "https://vk.com/wall-46847296_133412",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "middle",
+   "date_msk": "2026-09-25 13:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.023361,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "коротко о фиговом специалисте. пусть так будет всегда",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133374",
+   "post_url": "https://vk.com/wall-46847296_133374",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "middle",
+   "date_msk": "2026-09-24 17:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.022947,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Обрезанный мем про сосиску",
+   "comment_likes": 2,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133338",
+   "post_url": "https://vk.com/wall-46847296_133338",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-24 11:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.045802,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "",
+   "comment_likes": 1,
+   "is_spam_template": false,
+   "categories": [
+    "empty_or_emoji"
+   ]
+  },
+  {
+   "post_id": "-46847296_133338",
+   "post_url": "https://vk.com/wall-46847296_133338",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-24 11:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.045802,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Роллы со шпротами 🤣",
+   "comment_likes": 4,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133338",
+   "post_url": "https://vk.com/wall-46847296_133338",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-24 11:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.045802,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "ИИ контент...листаем дальше",
+   "comment_likes": 3,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133338",
+   "post_url": "https://vk.com/wall-46847296_133338",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-24 11:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.045802,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Я редко роллы ем, но недавно хотели заказать, стали искать и я заметила, что очень много сетов с Курицей! Это что за прикол, почему роллы с курицей? Куда делась рыба? Или мы настолько обеднели, что нам стали предлагать роллы с курицей 😢",
+   "comment_likes": 1,
+   "is_spam_template": false,
+   "categories": [
+    "question"
+   ]
+  },
+  {
+   "post_id": "-46847296_133312",
+   "post_url": "https://vk.com/wall-46847296_133312",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "middle",
+   "date_msk": "2026-09-23 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.023474,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Странный вопрос 🤦🏻‍♂️",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Ну вообще было бы неплохо. Девочки там абсолютно не защищены.",
+   "comment_likes": 1871,
+   "is_spam_template": false,
+   "categories": [
+    "negative_reaction",
+    "safety_concern"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Это пункт выдачи в женской колонии",
+   "comment_likes": 290,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Дол*оё*ы и как от них защититься",
+   "comment_likes": 295,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "А если телевизор пришел?",
+   "comment_likes": 4,
+   "is_spam_template": false,
+   "categories": [
+    "question"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Шикарная идея. Работники в безопасности.",
+   "comment_likes": 348,
+   "is_spam_template": false,
+   "categories": [
+    "safety_concern"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "отработка штрафов на дряньберрис ?",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "question"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Правильно.",
+   "comment_likes": 31,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "гранату закинут х)",
+   "comment_likes": 4,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "У этой причины есть название. 1 это бумеры, 2 это миллениалы. Остальные себя ведут нормально",
+   "comment_likes": 95,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Там Сидорович сидеть должен",
+   "comment_likes": 76,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Еще б усыпляющий газ для особо буйных🔥",
+   "comment_likes": 40,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Прям как сша.",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "😂😂😂😂",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "У нас на жд переезде так. К такому решению привели два чеченца, которые разбили все окна и выломали дверь в домик железнодорожников, потому что шлагбаум опустили перед их машиной.",
+   "comment_likes": 431,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "У нас на строгом точно такой же продуктовый магазин по сей день 😆",
+   "comment_likes": 2,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Истрий полный интернет",
+   "comment_likes": 1,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "От дронов?",
+   "comment_likes": 2,
+   "is_spam_template": false,
+   "categories": [
+    "question"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Как на почте надо",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "В интернете много роликов",
+   "comment_likes": 4,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "",
+   "comment_likes": 1,
+   "is_spam_template": false,
+   "categories": [
+    "empty_or_emoji"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Каждому первому выдают заказ, каждому второму бонусы.",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Материалы по данной истории см. уголовное дело N⁰***...",
+   "comment_likes": 3,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Вот такие меры и убкрегут ПВЗ от порчи компьютеров, столов... и самих сотрудников 🔥🔥🔥",
+   "comment_likes": 86,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Правильное решение, ещё в КиБ надо также сделать.",
+   "comment_likes": 2,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Вб до 21.00\nТЦ до 23.00",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Уже даже на нарах есть вб😂",
+   "comment_likes": 1,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Сотрудников не кормить",
+   "comment_likes": 17,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Классная защита людей от диких животных.",
+   "comment_likes": 31,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Женевская конвенция бы в сами не согласилась",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "(Это от дронов сетка)",
+   "comment_likes": 7,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Такое в каждом пункте надо ставить, от животных",
+   "comment_likes": 387,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "окно для выдачи бы поменьше и на окно тоже сетку",
+   "comment_likes": 42,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "В фильме \" Спизд.ли \" у бухмеккеров что то похожее было🤭",
+   "comment_likes": 4,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Зеркало тоже за ограждение уберите😂",
+   "comment_likes": 5,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Это вб на зоне))))",
+   "comment_likes": 10,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Давно пора",
+   "comment_likes": 14,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Дикость людей,вот что привело к такому решению",
+   "comment_likes": 129,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Темка прикольная, но если схватят и свалят без оплаты? Как выскакивать и догонять?👀 или ну его нах?",
+   "comment_likes": 1,
+   "is_spam_template": false,
+   "categories": [
+    "question"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "",
+   "comment_likes": 3,
+   "is_spam_template": false,
+   "categories": [
+    "empty_or_emoji"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Лучше бы лимит ставили не больше 10 вещей на одну ячейку. А то придет какой-нибудь моднице зумеру штук 30 товаров, а сотрудник пвз думай, как поместить 30 пуховиков в одну ячейку. А потом приходит, и еще отказывается от 29 из 30и, а сотруднику приходится это все переупаковывать вместо обеда.",
+   "comment_likes": 56,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Кому-то сказали: «здесь брак, оплачиваете»",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "ПВЗ строгого режима",
+   "comment_likes": 25,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Куча таких историй",
+   "comment_likes": 1,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "А история такова: Привет, сгенерируй мне фотографию ПВЗ Вайлдберриз с решеткой перед стойкой выдачи. Людей на пункте выдачи нет. Реалестичные тени и освещение",
+   "comment_likes": 15,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Походу дела клиентура агрессивная",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Теперь сотрудник не помешает мне стащить пуфик из примерочной!!!!",
+   "comment_likes": 5,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "да я так в студенчестве и работала в продуктовом ))))))))))\nТак что никакие не особенные эти ПВЗ, просто моду ввели \"страдать\" больше и громче всех. В КБ думаю похуже работа то или в круглосуточной аптеке, например.",
+   "comment_likes": 2,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction",
+    "personal_story_resonance"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Из-за маразматичного совкового поколения",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Историй пол интернета видео",
+   "comment_likes": 4,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Таких историй масса, где неадекваты в пунктах выдачи",
+   "comment_likes": 4,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "",
+   "comment_likes": 11,
+   "is_spam_template": false,
+   "categories": [
+    "empty_or_emoji"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "",
+   "comment_likes": 3,
+   "is_spam_template": false,
+   "categories": [
+    "empty_or_emoji"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Они и решетку снесут",
+   "comment_likes": 3,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "и пару пулемëтов скорострельных, для отстреливания добросовестных вб-приобретателей",
+   "comment_likes": 1,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Вот так везде надо",
+   "comment_likes": 3,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "empty_or_emoji"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "empty_or_emoji"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Я знаю это пунт выдачи, и его историю",
+   "comment_likes": 1,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Эти истории почти каждую неделю показывают в инсте!",
+   "comment_likes": 2,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Это надо нам в регистратуре, в государственной поликлинике 🤣🤣🤣",
+   "comment_likes": 2,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "сидельцы валбериса 🤣",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Великое колено всё ещё постит в тви (х)? Или это старый пост? или другой аккаунт взял такое же имя?",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "question"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Люди - хуже дьявола",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Пуленепробиваемое стекло надо ещё, а-то времена сейчас дикие 🤔",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Это на сизо?",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "question"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "ИТК-87? 😂",
+   "comment_likes": 1,
+   "is_spam_template": false,
+   "categories": [
+    "question",
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "90е вернулись.",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Скоро еще и снаружи сетку будут делать",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "А может это полиция решила для прибыли сдавать участки в аренду 😅",
+   "comment_likes": 1,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Так забавно читать \"Девочки на ПВЗ абсолютно не защищены\". Вы извините, но и мальчики, которые там работают, тоже не защищены. Ибо, когда я пришёл забирать с ПВЗ заказанные гири на 24кг,ни парень на выдаче, ни второй парень за занавеской к этому готовы точно не были.",
+   "comment_likes": 25,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction",
+    "objection_or_dispute",
+    "safety_concern"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Предыстория примерно такая - Сидорович: начало",
+   "comment_likes": 2,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Идеальное решение!!!!",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Как и ночные аптеки начали выдавать из окошка по звонку, слишком много неадекватов",
+   "comment_likes": 1,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "А как они крупногабаритные выдают товары?",
+   "comment_likes": 1,
+   "is_spam_template": false,
+   "categories": [
+    "question",
+    "product_interest_question"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "",
+   "comment_likes": 4,
+   "is_spam_template": false,
+   "categories": [
+    "empty_or_emoji"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "В интернете множество видео-предысторий",
+   "comment_likes": 1,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Бред",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "negative_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "сотрудник пункта выдачи примеряет на себя вещи что заказал покупатель??? тогда зеркало почему тут?))) а не там)))",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "question"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "А как КГТ выдавать?",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "question",
+    "product_interest_question"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Во всех зонах России?",
+   "comment_likes": 1,
+   "is_spam_template": false,
+   "categories": [
+    "question"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Там Сидорович должен быть .",
+   "comment_likes": 2,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Да это везде надо сделать,учитывая,какие туда невменяемые животные порой приходят. Жалко сотрудников.",
+   "comment_likes": 4,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction",
+    "safety_concern"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Иванько стеклянную дверь справа разобьёт,чтобы до сотрудника добраться, чтобы подраться\n\nНу чаще в обратную сторону))",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Зеркало тоже стоило бы за решетку убрать)",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Посмотрела несколько видео с инцидентами на пвз и пришла к выводу, что там ещё нужны штатный психиатр и бригада санитаров.",
+   "comment_likes": 2,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Окно большое, все равно продавцы сбегать будут",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Драка в Красноярске?😂",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "question",
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Это чтобы сотрудник не мог уволиться.",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "И в тюрьму добрались эти валбирисы 🤣",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Это видно таким простым как нам, а вип юзерам не видно",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Ну так если скот такой туда заходит. Щипают, царапают, кусают, лягаются, плюются, шумят…. Давно пора так везде зделать. А ещё охранника на вход.",
+   "comment_likes": 3,
+   "is_spam_template": false,
+   "categories": [
+    "comment_on_topic_no_clear_signal"
+   ]
+  },
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-22 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.095552,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Все знают чем это вызвано?",
+   "comment_likes": 0,
+   "is_spam_template": false,
+   "categories": [
+    "question"
+   ]
+  },
+  {
+   "post_id": "-46847296_133110",
+   "post_url": "https://vk.com/wall-46847296_133110",
+   "group_name": "Маркетинг | Реклама",
+   "bucket": "top25",
+   "date_msk": "2026-09-21 19:00",
+   "main_type": "Картинка",
+   "post_er_snapshot": 0.033856,
+   "benchmark_er_snapshot": 0.016661,
+   "comment_text": "Ну как то да... Но тут не в зарплате дело. Когда я был студентом, мне тётка предлагала квартиру купить за 10 000 usd. Однушка после бабушки. Я тогда решил, что нафиг оно мне надо, а когда созрел до покупки, купил однушку уже за 50 000 usd",
+   "comment_likes": 1,
+   "is_spam_template": false,
+   "categories": [
+    "positive_reaction",
+    "objection_or_dispute"
+   ]
+  }
+ ]
+}
