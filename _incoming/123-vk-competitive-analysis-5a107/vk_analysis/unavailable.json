@@ -1,0 +1,7 @@
+[
+  {
+    "object": "Сообщество Боги Маркетинга (https://vk.com/advgods)",
+    "link": "https://vk.com/advgods",
+    "reason": "Адрес сообщества возвращает HTTP 404; VK API не находит сообщество по group_id='advgods' (ошибка 100 'group_id not domain'). Публикации недоступны."
+  }
+]

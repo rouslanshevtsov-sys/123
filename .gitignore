@@ -1,5 +1,12 @@
-node_modules/
-.next/
-dist/
-build/
-*.log
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and secrets
+.env
+.token
+vk_analysis/.token
+
+# Archives
+*.tar.gz

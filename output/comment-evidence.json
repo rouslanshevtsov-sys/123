@@ -1,0 +1,329 @@
+{
+ "note": "Ручная верификация сигналов по комментариям. Комментарии собраны wall.getComments 28.09.2026; checked_now — wall.getById на момент проверки.",
+ "spam_template_excluded_from_counts": {
+  "text": "460 лучших книг по саморазвитию за 10 минут. Удобно, быстро и бесплатно - https://t.me/ikniga",
+  "occurrences": 96
+ },
+ "posts": [
+  {
+   "post_id": "-46847296_133188",
+   "post_url": "https://vk.com/wall-46847296_133188",
+   "group_name": "Маркетинг | Реклама",
+   "main_type": "Картинка",
+   "date_msk": "2026-09-22 19:00",
+   "result_verdict": "Лучший",
+   "collected_at_snapshot": {
+    "likes": 12069,
+    "comments": 169,
+    "reposts": 738,
+    "views": 135801,
+    "er": 0.095552,
+    "benchmark_er": 0.016661
+   },
+   "checked_now": {
+    "likes": 12131,
+    "comments": 169,
+    "reposts": 741,
+    "views": 136448
+   },
+   "comments_fetched_here": 92,
+   "evidence": {
+    "question": {
+     "text": "Интересно узнать историю, которая привела к этому дизайнерскому решению",
+     "author_comment_likes": null
+    },
+    "safety_concern": [
+     {
+      "text": "Ну вообще было бы неплохо. Девочки там абсолютно не защищены.",
+      "author_comment_likes": 1871
+     },
+     {
+      "text": "Так забавно читать \"Девочки на ПВЗ абсолютно не защищены\". Вы извините, но и мальчики, которые там работают, тоже не защищены",
+      "author_comment_likes": 25
+     }
+    ],
+    "positive_reaction": [
+     {
+      "text": "Такое в каждом пункте надо ставить, от животных",
+      "author_comment_likes": 387
+     },
+     {
+      "text": "Вот такие меры и укрепят ПВЗ от порчи компьютеров, столов... и самих сотрудников 🔥🔥🔥",
+      "author_comment_likes": 86
+     },
+     {
+      "text": "Классная защита людей от диких животных.",
+      "author_comment_likes": 31
+     },
+     {
+      "text": "Правильное решение, ещё в КиБ надо также сделать.",
+      "author_comment_likes": 2
+     }
+    ],
+    "objection_or_dispute": [
+     {
+      "text": "Историй пол интернета видео / В интернете множество видео-предысторий",
+      "author_comment_likes": null
+     },
+     {
+      "text": "А история такова: Привет, сгенерируй мне фотографию ПВЗ Вайлдберриз с решеткой перед стойкой выдачи",
+      "author_comment_likes": null
+     }
+    ],
+    "product_interest_question": [
+     {
+      "text": "А как они крупногабаритные выдают товары?",
+      "author_comment_likes": null
+     },
+     {
+      "text": "Темка прикольная, но если схватят и свалят без оплаты? Как выскакивать и догонять?",
+      "author_comment_likes": null
+     }
+    ]
+   }
+  },
+  {
+   "post_id": "-46847296_133516",
+   "post_url": "https://vk.com/wall-46847296_133516",
+   "group_name": "Маркетинг | Реклама",
+   "main_type": "Картинка",
+   "date_msk": "2026-09-27 11:00",
+   "result_verdict": "Лучший",
+   "collected_at_snapshot": {
+    "likes": 915,
+    "comments": 10,
+    "reposts": 122,
+    "views": 15790,
+    "er": 0.066308,
+    "benchmark_er": 0.016661
+   },
+   "checked_now": {
+    "likes": 971,
+    "comments": 10,
+    "reposts": 125,
+    "views": 16555
+   },
+   "comments_fetched_here": 6,
+   "evidence": {
+    "positive_reaction": [
+     {
+      "text": "Надо бодриться!",
+      "author_comment_likes": null
+     },
+     {
+      "text": "прекрасная мотивация. После такого отзыва стал счастлив и энергичен",
+      "author_comment_likes": 14
+     }
+    ],
+    "objection_or_dispute": [
+     {
+      "text": "энтузиазм за 2к в смену? даже не смешно",
+      "author_comment_likes": 26
+     },
+     {
+      "text": "Пусть потаскают повлетают на штрафы послушают всяких неадекватных клиентов курьеров и начальство, а зп около 20🙂",
+      "author_comment_likes": 6
+     }
+    ],
+    "question": [
+     {
+      "text": "«Как будто»?",
+      "author_comment_likes": 6
+     }
+    ]
+   }
+  },
+  {
+   "post_id": "-33608666_183429",
+   "post_url": "https://vk.com/wall-33608666_183429",
+   "group_name": "Маркетинг Реклама Бизнес Саморазвитие",
+   "main_type": "Картинка",
+   "date_msk": "2026-09-24 12:30",
+   "result_verdict": "Лучший",
+   "collected_at_snapshot": {
+    "likes": 106,
+    "comments": 6,
+    "reposts": 16,
+    "views": 3856,
+    "er": 0.033195,
+    "benchmark_er": 0.006971
+   },
+   "checked_now": {
+    "likes": 106,
+    "comments": 6,
+    "reposts": 16,
+    "views": 3882
+   },
+   "comments_fetched_here": 6,
+   "evidence": {
+    "personal_story_resonance": [
+     {
+      "text": "Такая же история. Куча подаренных брендированных красивых блокнотов. Нет чтобы раздать кому-нибудь. Храню дома.",
+      "author_comment_likes": null
+     },
+     {
+      "text": "Мне в конце августа хочется купить дневник или тетрадь",
+      "author_comment_likes": null
+     }
+    ],
+    "positive_reaction": [
+     {
+      "text": "Есть... Увидишь табличку с надписью \"фикс прайс\" - беги... Это место...",
+      "author_comment_likes": 1
+     }
+    ]
+   }
+  },
+  {
+   "post_id": "-46847296_133338",
+   "post_url": "https://vk.com/wall-46847296_133338",
+   "group_name": "Маркетинг | Реклама",
+   "main_type": "Картинка",
+   "date_msk": "2026-09-24 11:00",
+   "result_verdict": "Лучший",
+   "collected_at_snapshot": {
+    "likes": 488,
+    "comments": 4,
+    "reposts": 72,
+    "views": 12314,
+    "er": 0.045802,
+    "benchmark_er": 0.016661
+   },
+   "checked_now": {
+    "likes": 495,
+    "comments": 4,
+    "reposts": 72,
+    "views": 12405
+   },
+   "comments_fetched_here": 4,
+   "evidence": {
+    "negative_reaction": [
+     {
+      "text": "ИИ контент...листаем дальше",
+      "author_comment_likes": 3
+     }
+    ],
+    "question": [
+     {
+      "text": "Я редко роллы ем, но недавно хотели заказать... очень много сетов с Курицей! Это что за прикол, почему роллы с курицей?",
+      "author_comment_likes": 1
+     }
+    ]
+   }
+  },
+  {
+   "post_id": "-46847296_133483",
+   "post_url": "https://vk.com/wall-46847296_133483",
+   "group_name": "Маркетинг | Реклама",
+   "main_type": "Карусель",
+   "date_msk": "2026-09-26 15:00",
+   "result_verdict": "Обычный",
+   "collected_at_snapshot": {
+    "likes": 7,
+    "comments": 4,
+    "reposts": 9,
+    "views": 3392,
+    "er": 0.005896,
+    "benchmark_er": 0.016661
+   },
+   "checked_now": null,
+   "comments_fetched_here": 4,
+   "evidence": {
+    "objection_or_dispute": [
+     {
+      "text": "Делал так 4 года назад... Миллионы не набрало, но по городу разлетелось)",
+      "author_comment_likes": null
+     }
+    ],
+    "safety_concern": [
+     {
+      "text": "😱 думала, он умер",
+      "author_comment_likes": null
+     },
+     {
+      "text": "Не хотела бы я такого поздравления",
+      "author_comment_likes": null
+     }
+    ]
+   }
+  },
+  {
+   "post_id": "-47706515_248195",
+   "post_url": "https://vk.com/wall-47706515_248195",
+   "group_name": "Стартап | Идеи для бизнеса, маркетинг",
+   "main_type": "Картинка",
+   "date_msk": "2026-09-22 02:45",
+   "result_verdict": "Обычный",
+   "collected_at_snapshot": {
+    "likes": 3,
+    "comments": 1,
+    "reposts": 9,
+    "views": 7226,
+    "er": 0.001799,
+    "benchmark_er": 0.002986
+   },
+   "checked_now": null,
+   "comments_fetched_here": 1,
+   "evidence": {
+    "negative_reaction": [
+     {
+      "text": "11. Этот пост",
+      "author_comment_likes": null
+     }
+    ]
+   }
+  },
+  {
+   "post_id": "-47706515_248237",
+   "post_url": "https://vk.com/wall-47706515_248237",
+   "group_name": "Стартап | Идеи для бизнеса, маркетинг",
+   "main_type": "Картинка",
+   "date_msk": "2026-09-24 14:45",
+   "result_verdict": "Обычный",
+   "collected_at_snapshot": {
+    "likes": 2,
+    "comments": 1,
+    "reposts": 4,
+    "views": 3282,
+    "er": 0.002133,
+    "benchmark_er": 0.002986
+   },
+   "checked_now": null,
+   "comments_fetched_here": 1,
+   "evidence": {
+    "negative_reaction": [
+     {
+      "text": "Обычная пирамида....",
+      "author_comment_likes": null
+     }
+    ]
+   }
+  },
+  {
+   "post_id": "-33608666_183448",
+   "post_url": "https://vk.com/wall-33608666_183448",
+   "group_name": "Маркетинг Реклама Бизнес Саморазвитие",
+   "main_type": "Картинка",
+   "date_msk": "2026-09-26 20:30",
+   "result_verdict": "Обычный",
+   "collected_at_snapshot": {
+    "likes": 2,
+    "comments": 1,
+    "reposts": 1,
+    "views": 1279,
+    "er": 0.003127,
+    "benchmark_er": 0.006971
+   },
+   "checked_now": null,
+   "comments_fetched_here": 1,
+   "evidence": {
+    "negative_reaction": [
+     {
+      "text": "С пользой будет попросту не читать этот бред",
+      "author_comment_likes": null
+     }
+    ]
+   }
+  }
+ ]
+}

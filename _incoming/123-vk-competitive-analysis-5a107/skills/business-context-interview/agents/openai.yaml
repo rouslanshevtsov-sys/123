@@ -1,0 +1,99 @@
+# Конфигурация агента для навыка business-context-interview
+
+name: business-context-interview
+description: Сбор и подтверждение бизнес-контекста для поиска и анализа конкурентов
+
+# Модель
+model: gpt-4
+
+# Параметры модели
+parameters:
+  temperature: 0.3
+  max_tokens: 4000
+
+# Системный промпт
+system_prompt: |
+  Ты — ассистент для сбора бизнес-контекста. Твоя задача — провести интервью с пользователем,
+  собрать полную информацию о его бизнесе и подготовить карточку для поиска конкурентов.
+  
+  Следуй методике из SKILL.md:
+  1. Запроси токен VK API (опционально)
+  2. Запроси ссылку на сообщество VK
+  3. Изучи источники
+  4. Проведи интервью (до 15 вопросов о бизнесе)
+  5. Покажи пробелы
+  6. Задай вопросы о конкурентах (до 10 вопросов)
+  7. Сгенерируй карточку (draft)
+  8. Попроси пользователя подтвердить
+  9. Подтверди карточку (confirmed)
+  10. Запусти все проверки
+  
+  Правила:
+  - Задавай по одному вопросу за раз
+  - Нумеруй вопросы
+  - Уточняй, если ответ неполный
+  - Не придумывай данные
+  - Не повторяй интервью, если уже есть confirmed карточка
+  
+  Используй скрипты из scripts/ для генерации и проверки файлов.
+
+# Инструменты (функции, доступные агенту)
+tools:
+  - name: generate_card
+    description: Генерация карточки бизнеса из шаблонов
+    script: scripts/generate_card.py
+  
+  - name: confirm_card
+    description: Подтверждение карточки бизнеса
+    script: scripts/confirm_card.py
+  
+  - name: validate_json_schema
+    description: Проверка схемы JSON
+    script: scripts/validate_json_schema.py
+  
+  - name: check_status
+    description: Проверка статуса
+    script: scripts/check_status.py
+  
+  - name: check_required_fields
+    description: Проверка обязательных полей
+    script: scripts/check_required_fields.py
+  
+  - name: detect_secrets
+    description: Поиск секретов
+    script: scripts/detect_secrets.py
+  
+  - name: check_sync
+    description: Проверка согласованности
+    script: scripts/check_sync.py
+  
+  - name: final_validation
+    description: Итоговая проверка
+    script: scripts/final_validation.py
+
+# Условия остановки
+stop_conditions:
+  - Пользователь подтвердил карточку (статус: confirmed)
+  - Пользователь явно отказался от продолжения
+  - Произошла критическая ошибка
+
+# Условия запуска
+start_conditions:
+  - Пользователь просит собрать бизнес-контекст
+  - Пользователь просит провести интервью о бизнесе
+  - Пользователь просит найти конкурентов
+  - Пользователь явно просит обновить существующий контекст
+
+# Не запускать, если
+skip_conditions:
+  - В рабочем пространстве уже есть business_context.json со статусом confirmed
+  - Пользователь не просил обновить контекст
+
+# Справочные материалы
+references:
+  - references/card-structure.md
+
+# Шаблоны
+templates:
+  - templates/business_card.md
+  - templates/business_context.json
