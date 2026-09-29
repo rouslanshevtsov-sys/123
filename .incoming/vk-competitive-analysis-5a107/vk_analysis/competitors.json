@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-09-28",
+  "source": "Пользователь предоставил список вручную (business_context.json competitors.known пуст). Новые конкуренты не добавляются.",
+  "classification_note": "Все сообщества — крупные контентные паблики о маркетинге/рекламе/бизнесе, не продающие курсы ШПМ напрямую => конкуренты за внимание (attention).",
+  "competitors": [
+    {"name": "Стартап | Идеи для бизнеса, маркетинг Твои конкуренты уже здесь", "type": "attention", "vk_url": "https://vk.com/mens.life.success", "screen_name": "mens.life.success", "subscribers_hint": 428744},
+    {"name": "Маркетинг Реклама Бизнес", "type": "attention", "vk_url": "https://vk.com/marketing_s", "screen_name": "marketing_s", "subscribers_hint": 199088},
+    {"name": "Бизнес Маркетинг Первый Вконтакте Портал о Маркетинге и Рекламе!", "type": "attention", "vk_url": "https://vk.com/reklamamarketing", "screen_name": "reklamamarketing", "subscribers_hint": 136456},
+    {"name": "Гении Маркетинга", "type": "attention", "vk_url": "https://vk.com/marketing_geniuses", "screen_name": "marketing_geniuses", "subscribers_hint": 120580},
+    {"name": "Боги Маркетинга", "type": "attention", "vk_url": "https://vk.com/advgods", "screen_name": "advgods", "subscribers_hint": 107966},
+    {"name": "РЕКЛАМА ★ БАРАХОЛКА ★ МАРКЕТИНГ", "type": "attention", "vk_url": "https://vk.com/promo.marketing", "screen_name": "promo.marketing", "subscribers_hint": 107835},
+    {"name": "Маркетинг | Реклама", "type": "attention", "vk_url": "https://vk.com/marketingireklama", "screen_name": "marketingireklama", "subscribers_hint": 103735}
+  ]
+}

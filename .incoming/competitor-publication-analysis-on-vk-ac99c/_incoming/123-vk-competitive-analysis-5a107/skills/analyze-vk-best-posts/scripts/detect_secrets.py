@@ -1,0 +1,57 @@
+#!/usr/bin/env python3
+"""Поиск секретов в файлах навыка (токены VK, access_token, абсолютные пути запуска).
+
+Использование: python detect_secrets.py [--dir DIR]
+Возвращает 1, если найдены секреты или запрещённые абсолютные пути.
+"""
+import argparse
+import os
+import re
+import sys
+
+PATTERNS = [
+    ("VK-токен", re.compile(r"vk1\.[a-zA-Z]\.[A-Za-z0-9_\-]{20,}")),
+    ("access_token присваивание", re.compile(r"access_token\s*[=:]\s*['\"]?[A-Za-z0-9]{20,}")),
+    ("абсолютный путь запуска", re.compile(r"/workspace/[^\s\"']*|/home/[a-z]+/|C:\\\\Users")),
+]
+SKIP_EXT = {".png", ".jpg", ".jpeg", ".mp4", ".xlsx", ".pyc"}
+
+
+def scan(root):
+    findings = []
+    for dirpath, dirnames, filenames in os.walk(root):
+        dirnames[:] = [d for d in dirnames if d not in ("__pycache__", ".git", "media")]
+        for fn in filenames:
+            if os.path.splitext(fn)[1].lower() in SKIP_EXT:
+                continue
+            p = os.path.join(dirpath, fn)
+            try:
+                with open(p, encoding="utf-8") as f:
+                    text = f.read()
+            except (UnicodeDecodeError, OSError):
+                continue
+            for label, rx in PATTERNS:
+                m = rx.search(text)
+                if m:
+                    rel = os.path.relpath(p, root)
+                    findings.append(f"{rel}: {label} -> {m.group(0)[:40]}...")
+    return findings
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--dir", default=None)
+    args = ap.parse_args()
+    root = args.dir or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    found = scan(root)
+    if found:
+        print("SECRETS CHECK: FAIL")
+        for f in found:
+            print(f"  - {f}")
+        return 1
+    print("SECRETS CHECK: PASS")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

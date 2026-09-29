@@ -1,5 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node.js / Frontend (Vite/React)
 node_modules/
-.next/
 dist/
 build/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
 *.log
+
+# OS & System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

@@ -1,0 +1,5 @@
+# Logs and temp files
+*.log
+
+# Output directories (generated artifacts)
+output/

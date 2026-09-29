@@ -1,0 +1,21 @@
+{
+  "contractVersion": "1.1",
+  "skill": "business-context-interview",
+  "status": "confirmed",
+  "confirmationDate": "2026-01-20",
+  "generatedAt": "2026-01-20T00:00:00.000Z",
+  "businessName": "Школа Практического Маркетинга (SHPM Course)",
+  "niche": "Практический маркетинг / digital-маркетинг / обучение маркетингу",
+  "sourceUrl": "https://vk.ru/shpmcourse",
+  "sourceAccessible": false,
+  "contextHash": "sha256:037c72b61ca656af3dc79342070e1a6e7cf97cf64b72b05c8e644c5aaa8b2091",
+  "counts": {
+    "knownCompetitors": 0,
+    "searchQueries": 0,
+    "gaps": 17
+  },
+  "files": {
+    "business_context.json": "sha256:47951805cc19392005cd5ec05139c0ab0a8ddff535668a5eedecd8fa20e7a8f4",
+    "business_card.md": "sha256:adaf958eaf7c135a0d5051e5f5ae885b0ee79e1a8cb9055ffde9a3526190ab08"
+  }
+}

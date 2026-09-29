@@ -1,0 +1,75 @@
+{
+  "status": "draft",
+  "confirmationDate": null,
+  "generatedAt": "",
+  "source": {
+    "url": "",
+    "accessible": false,
+    "parseError": ""
+  },
+  "business": {
+    "name": null,
+    "niche": null,
+    "positioning": null,
+    "description": null
+  },
+  "products": {
+    "main": [],
+    "secondary": [],
+    "assortmentWidth": null,
+    "producer": null,
+    "productionType": null
+  },
+  "audience": {
+    "targetSegments": [],
+    "tasks": [],
+    "painPoints": []
+  },
+  "geography": {
+    "regions": [],
+    "format": null
+  },
+  "pricing": {
+    "model": null,
+    "range": null
+  },
+  "salesProcess": {
+    "orderProcess": null,
+    "paymentMethods": [],
+    "deliveryOrAccess": null,
+    "salesFormat": null
+  },
+  "channels": {
+    "acquisition": [],
+    "onlinePresence": []
+  },
+  "advantages": [],
+  "limitations": [],
+  "keyFeatures": [],
+  "competitors": {
+    "known": [],
+    "classification": {
+      "direct": "Продают тот же продукт той же аудитории. Ассортимент может быть шире, но основная специализация совпадает.",
+      "indirect": "Продают часть ассортимента или похожий ассортимент.",
+      "attention": "Бизнесы, которые могут отвлечь внимание клиента, закрывая схожую потребность."
+    }
+  },
+  "searchCriteria": {
+    "mustHaveFeatures": [],
+    "searchPlatforms": [],
+    "count": null,
+    "geography": null,
+    "vkAudienceLimit": null,
+    "publicationFreshness": null,
+    "include": [],
+    "exclude": [],
+    "searchQueries": []
+  },
+  "gaps": [],
+  "validation": {
+    "jsonSyntaxValid": true,
+    "syncedWithMarkdown": true,
+    "noSecretsExposed": true,
+    "noFabricatedData": true
+  }
+}

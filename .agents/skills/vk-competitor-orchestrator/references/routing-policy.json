@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "1.0",
+  "description": "Политика маршрутизации моделей управляющего навыка vk-competitor-orchestrator. Читается перед запуском каждого этапа (scripts/run_stage.py). Смена модели/effort — только здесь; в SKILL.md и скриптах значения не дублируются.",
+  "models": {
+    "interview": {"model": "gpt-5.6-terra", "effort": "medium"},
+    "competitors_search": {"model": "gpt-5.6-sol", "effort": "medium"},
+    "posts_regular": {"model": "gpt-5.6-terra", "effort": "medium"},
+    "analysis_first_complex": {"model": "gpt-5.6-sol", "effort": "high"},
+    "analysis_regular": {"model": "gpt-5.6-sol", "effort": "medium"}
+  },
+  "stageSkillMap": {
+    "interview": "business-context-interview",
+    "competitors": "search-vk-competitors",
+    "posts": "analyze-vk-best-posts",
+    "report": "vk-content-report"
+  },
+  "allowedSkills": [
+    "business-context-interview",
+    "search-vk-competitors",
+    "analyze-vk-best-posts",
+    "vk-content-report",
+    "vk-competitor-orchestrator"
+  ],
+  "notes": {
+    "firstComplexCriteria": "analysis_first_complex применяется, когда анализ рынка выполняется впервые для данного подтверждённого бизнес-контекста или по явной просьбе пользователя сделать углублённый разбор; далее — analysis_regular.",
+    "reusePolicy": "при неизменившихся хэшах входов этап не перезапускается; модель не выбирается для переиспользованного результата.",
+    "tokenPolicy": "VK_API_TOKEN читает только навык этапа из vk_token.txt/env; orchestrator токен не читает, не логирует и не передаёт в handoff.json."
+  }
+}

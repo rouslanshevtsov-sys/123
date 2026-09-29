@@ -133,5 +133,9 @@
     "syncedWithMarkdown": true,
     "noSecretsExposed": true,
     "noFabricatedData": true
+  },
+  "schemaVersion": "1.1",
+  "hashes": {
+    "business_context.json": "sha256:037c72b61ca656af3dc79342070e1a6e7cf97cf64b72b05c8e644c5aaa8b2091"
   }
 }
